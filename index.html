@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Ateliê da Mika</title>
+</head>
+
+<body>
+  <header class="header">
+    <section class="header-inner">
+      <a href="#home" class="logo" aria-label="Ateliê da Mika">Ateliê da Mika</a>
+      <nav class="navbar">
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#portfolio">Produtos</a>
+        <a href="#contact">Contato</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+    </section>
+  </header>
+
+  <main>
+    <section id="home" class="hero reveal">
+      <div class="hero-content">
+        <span class="eyebrow">Ateliê profissional</span>
+        <h1>Enxovais personalizados, estilo e cuidado em cada detalhe</h1>
+        <p>Lençóis com e sem elástico, porta travesseiro, fronhas avulsas e reformas com acabamento impecável para você
+          se sentir segura e
+          elegante.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Agende seu atendimento</a>
+          <a href="#portfolio" class="btn btn-secondary">Conheça nossos produtos</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-box">
+          <h2>Atendimento exclusivo</h2>
+          <p>Consultoria de estilo, escolha de tecidos e acabamento profissional para cada peça.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="section-header">
+        <span>Quem somos</span>
+        <h2>Ateliê da Mika</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>Somos um ateliê dedicado à criação e reforma de enxovais , oferecendo serviço completo de costura,
+            bordado, ajustes e produção sob medida.</p>
+          <ul>
+            <li>Consultoria personalizada</li>
+            <li>Peças sob medida</li>
+            <li>Reformas e ajustes rápidos</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Compromisso</h3>
+          <p>Qualidade, pontualidade e respeito aos seus desejos para transformar ideias em peças reais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services reveal">
+      <div class="section-header">
+        <span>O que fazemos</span>
+        <h2>Serviços do ateliê</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>Enxovais sob medida</h3>
+          <p>Criação de lençóis, porta travesseiro, fronhas avulsas e outras peças com acabamento impecávelss.</p>
+        </article>
+        <article class="service-card">
+          <h3>Reforma e ajustes</h3>
+          <p>Reestruturação de peças antigas, ajustes, bainhas e modificações com acabamento elegante.</p>
+        </article>
+        <article class="service-card">
+          <h3>Personalização</h3>
+          <p>Bordados, apliques e detalhes exclusivos para deixar suas roupas com identidade única.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio reveal">
+      <div class="section-header">
+        <span>Produtos</span>
+        <h2>Peças prontas e inspirações</h2>
+      </div>
+      <div class="portfolio-grid">
+        <article class="portfolio-card">
+          <h3>Vestido de festa</h3>
+          <p>Modelo elegante com caimento leve e detalhes bordados para ocasiões especiais.</p>
+        </article>
+        <article class="portfolio-card">
+          <h3>Conjunto casual</h3>
+          <p>Top e saia coordenados em tecido confortável para uso diário ou eventos informais.</p>
+        </article>
+        <article class="portfolio-card">
+          <h3>Peça reformada</h3>
+          <p>Transformação de roupa antiga em peça moderna com estilo atual.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials reveal">
+      <div class="section-header">
+        <span>Depoimentos</span>
+        <h2>O que nossas clientes dizem</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p>"A Mika entendeu meu estilo e entregou um vestido perfeito. Atendimento carinhoso e trabalho impecável."
+          </p>
+          <strong>— Bianca</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>"Reformei várias peças antigas e agora uso tudo com muito mais confiança. Recomendo para quem busca
+            qualidade."</p>
+          <strong>— Júlia</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="section-header">
+        <span>Fale conosco</span>
+        <h2>Vamos criar sua próxima peça</h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome" required />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="5" placeholder="Explique o que você deseja" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+        </form>
+        <div class="contact-info">
+          <div>
+            <h3>Contato</h3>
+            <p>Email: contato@ateliedamika.com.br</p>
+            <p>WhatsApp: (11) 99999-9999</p>
+            <p>Endereço: Rua do Estilo, 123, São Paulo</p>
+          </div>
+          <div>
+            <h3>Horário</h3>
+            <p>Segunda a sexta: 09h - 18h</p>
+            <p>Sábado: 10h - 14h</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Ateliê da Mika. Moda artesanal e atendimento personalizado.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
